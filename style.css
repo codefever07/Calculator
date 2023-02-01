@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.calculator{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    justify-content: center;
+    grid-column-gap: 53px;
+grid-row-gap: 6px;
+background-color: black;
+width: 448px;
+height: 560px;
+align-items: center;
+margin: auto auto;
+box-sizing: border-box;
+padding-right: 47px;
+
+}
+#btn17{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 180px;
+    font-size: 1.3rem
+}
+.main{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    padding: 0px auto
+}
+
+#input{
+    grid-column-start: 1;
+    grid-column-end: 5
+
+}
+#inputValue{
+    box-sizing: border-box;
+    width: 365px;
+    border: 2px solid black;
+    text-align: right;
+    padding: auto;
+    font-size: 3.3rem;
+    background: black;
+    color: white;
+    border-radius: 40px
+
+}
+
+.calculator button{
+    height: 62px;
+    width: 89px;
+    border: 2px solid black;
+    border-radius: 30px
+}
+
+.title{
+    text-align: center;
+    font-size: 3.2rem;
+    color: black;
+    padding-top: 20px
+}
+
+.first-row-3{
+    background-color: #9e9e9e;
+   
+}
+
+
+
+.bg_789{
+    background-color: #303030;
+    color: white;
+   
+}
+
+
+
+.last-horizontal-row{
+    background-color: #f29605;
+    color: white;
+   
+}
+
+
+.inner-text{
+    font-size: 1.3rem;
+    
+}
+
+.calculator button:hover .inner-text{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    height: 52px;
+    width: 75px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box
+    
+}
+
+
+
+#btn17:hover .sp_inner-text{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    height: 47px;
+    width: 163px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 14px;
+    box-sizing: border-box
+    
+}
